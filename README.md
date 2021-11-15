@@ -77,6 +77,10 @@ Enlazar carpeta data como carpeta compartida en Virtual Box. Mantener el nombre 
 Es necesaria la installación previa de nilmtk: https://github.com/nilmtk/nilmtk/blob/master/docs/manual/user_guide/install.md
 
 
+#AriasSilva
+
+Nilmtk en 6 pasos  https://github.com/AriasSilva/nilmtk
+
 # Codigo en Python 
 
 ## Gissemari  Desagregacion vrnn

@@ -27,37 +27,33 @@ Los algoritmos utilizados en el artículo son los siguientes:
 Cuadernos :
 Los algoritmos como AFHMM, AFHMM con SAC y Codificación Discriminativa Dispersa son intensivos en CPU. Todas las redes neuronales son intensivas en GPU, por lo que un solo experimento tuvo que ejecutarse en diferentes tipos de máquinas. Todos los algoritmos intensivos de la CPU se ejecutaron en un sistema de CPU muy potente y todos los demás algoritmos se ejecutaron en un sistema con una GPU. Entonces, para cada experimento tenemos dos portátiles diferentes: uno para los algoritmos de CPU y otro para todo lo demás.
 
- ## nilmtk-contrib
-https://github.com/nilmtk/nilmtk-contrib
+ ## nilmtk-contrib https://github.com/nilmtk/nilmtk-contrib
 Este repositorio contiene todos los algoritmos de última generación para la tarea de desagregación de energía implementados utilizando la API de Experimentación Rápida de NILMTK. Puedes encontrar el artículo aquí . Todos los cuadernos a los que estaba acostumbrado se pueden encontrar aquí .
 
 Con NILMTK-contrib puede utilizar los siguientes algoritmos:
-
-Modelo de Markov oculto factorial aditivo
-Modelo de Markov oculto factorial aditivo con restricciones de señal agregada
-Codificación dispersa discriminativa
-RNN
-Codificador automático de reducción de ruido
-Seq2Point
-Seq2Seq
-VentanaGRU
+> Modelo de Markov oculto factorial aditivo
+> Modelo de Markov oculto factorial aditivo con restricciones de señal agregada
+> Codificación dispersa discriminativa
+> RNN
+> Codificador automático de reducción de ruido
+> Seq2Point
+> Seq2Seq
+>VentanaGRU
 Los algoritmos de vanguardia anteriores se han agregado a este repositorio.
 
 Puede hacer lo siguiente utilizando la nueva API de experimentación rápida de NILMTK:
 
-Capacitación y pruebas en múltiples dispositivos
-Capacitación y pruebas en múltiples conjuntos de datos (aprendizaje de transferencia)
-Capacitación y pruebas en varios edificios
-Entrenamiento y pruebas con agregado artificial
-Entrenamiento y pruebas con diferentes frecuencias de muestreo
+> Capacitación y pruebas en múltiples dispositivos
+> Capacitación y pruebas en múltiples conjuntos de datos (aprendizaje de transferencia)
+> Capacitación y pruebas en varios edificios
+>  Entrenamiento y pruebas con agregado artificial
+> Entrenamiento y pruebas con diferentes frecuencias de muestreo
 Consulte este cuaderno para saber más sobre el uso de la API.
 
 Detalles de instalación
 Actualmente estamos probando un paquete conda. Puede instalarlo en su entorno actual con:
-
-conda install -c conda-forge -c nilmtk nilmtk-contrib
+ conda install -c conda-forge -c nilmtk nilmtk-contrib
 o cree un entorno dedicado (recomendado) con:
-
 conda create -n nilm -c conda-forge -c nilmtk nilmtk-contrib
 Consulte este cuaderno para utilizar los algoritmos nilmtk-contrib, utilizando la nueva NILMTK-API.
 

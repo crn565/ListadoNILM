@@ -42,24 +42,20 @@ https://github.com/gjwo/nilm_metadata
 
 ## OdysseasKr  
 
-Desagregador Neuronal
-https://github.com/OdysseasKr/neural-disaggregator
+Desagregador Neuronal https://github.com/OdysseasKr/neural-disaggregator
 
 
 
 
 
 ## Josemao
-# Nilmtk en 4 pasos 
-https://github.com/josemao/nilmtk_practicas
+Nilmtk en 4 pasos https://github.com/josemao/nilmtk_practicas
 
 Non-Intrusive Load Monitoring (NILM) es una colección de técnicas y algoritmos de machine learning orientados a desagregar el consumo total de una casa en consumos individuales de electrodomésticos.
 
 Estas prácticas sigue algunos de los ejemplos propuestos en: http://nilmtk.github.io/
 
-##1 - Python científico
-
-Aquí explicaremos algunos de los conceptos básicos para el uso de las librerías necesarias de NILM.
+##1 - Python científico:Aquí explicaremos algunos de los conceptos básicos para el uso de las librerías necesarias de NILM.
 
 numpy: operaciones matemáticas de arrays y matrices
 
@@ -67,11 +63,7 @@ matploblib: para gráficas
 
 pandas: herramienta de análisis de datos a gran escala de manera eficiente
 
-##2 - Introducción a NILMTK
-
-NILMTK es una herramienta de análisis de datasets de NILM. Contiene funciones específicas para el análisis detallado y rápido del consumo eléctrico. Además, sirve de plataforma para los investigadores de NILM para comparar sus algoritmos con métricas estándar sobre varios datasets.
-
-Aprenderemos los conceptos básicos. Para más información, consultar la documentación en: https://github.com/nilmtk/nilmtk
+##2 - Introducción a NILMTK:NILMTK es una herramienta de análisis de datasets de NILM. Contiene funciones específicas para el análisis detallado y rápido del consumo eléctrico. Además, sirve de plataforma para los investigadores de NILM para comparar sus algoritmos con métricas estándar sobre varios datasets.Aprenderemos los conceptos básicos. Para más información, consultar la documentación en: https://github.com/nilmtk/nilmtk
 
 Los datasets que utilizaremos son:
 

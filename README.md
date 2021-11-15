@@ -1,6 +1,4 @@
-### Recursos NILM
-
-
+## Recursos NILM
 Una lista de repositorios con algoritmos de desagregación de energía implementados
 
 
@@ -8,17 +6,17 @@ Una lista de repositorios con algoritmos de desagregación de energía implement
 
 # Nilmtk
   
-# buildsys2019  https://github.com/nilmtk/buildsys2019-paper-notebooks
-# nilmtk-contrib  https://github.com/nilmtk/nilmtk-contrib
+ buildsys2019  https://github.com/nilmtk/buildsys2019-paper-notebooks
+ nilmtk-contrib  https://github.com/nilmtk/nilmtk-contrib
 
 
 
 ## Klemenjak
 
 
-# https://github.com/klemenjak/SynD/blob/master/examples/simple_disaggregation.ipynb 
-# https://github.com/klemenjak/nilm-papers-with-code
-# https://github.com/klemenjak/SynD 
+ https://github.com/klemenjak/SynD/blob/master/examples/simple_disaggregation.ipynb 
+ https://github.com/klemenjak/nilm-papers-with-code
+ https://github.com/klemenjak/SynD 
 
 
 ## JackKelly
@@ -36,15 +34,16 @@ https://github.com/gjwo/nilm_metadata
 ### Codigo en Python 
 
 
-## OdysseasKr
-# Desagregador Neuronal https://github.com/OdysseasKr/neural-disaggregator
+## OdysseasKr  Desagregador Neuronal
+https://github.com/OdysseasKr/neural-disaggregator
 
 
-# Gissemari
-#  https://bitbucket.org/gissemari/disaggregation-vrnn/src/master/
+# Gissemari  Desagregacion vrnn
+https://bitbucket.org/gissemari/disaggregation-vrnn/src/master/
 
 
-# NILM en línea : https://github.com/OdysseasKr/online-nilm
+# NILM en línea 
+https://github.com/OdysseasKr/online-nilm
 Aquí puede encontrar el código para las dos arquitecturas de redes neuronales propuestas  :"Enfoque de ventana deslizante para la desagregación de energía en línea utilizando redes neuronales artificiales, O. Krystalakos, C. Nalmpantis y D. Vrakas, SETN, 2018" (Documento completo: 3200947.3201011)
 Todo el código está escrito con Keras y Tensorflow.
 Puede encontrar versiones compatibles con NILMTK de estas redes en https://github.com/OdysseasKr/neural-disaggregator .
@@ -61,9 +60,7 @@ Los experimentos están disponibles para los siguientes dispositivos del conjunt
 -Pava
 -Microonda
 -Lavadora
--Obras relacionadas
-NILM neuronal: https://arxiv.org/pdf/1507.06594.pdf
-Secuencia original a punto: https://arxiv.org/pdf/1612.09106v3.pdf 
+Obras relacionadas en NILM neuronal: https://arxiv.org/pdf/1507.06594.pdf y Secuencia original a punto: https://arxiv.org/pdf/1612.09106v3.pdf 
 
 
 

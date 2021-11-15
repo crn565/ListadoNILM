@@ -1,10 +1,10 @@
-## Recursos NILM
+# Recursos NILM
 Una lista de repositorios con algoritmos de desagregación de energía implementados
 
 
-### Cuadernos Juyter Notebooks
+## Cuadernos Juyter Notebooks
 
-## Nilmtk
+### Nilmtk
   
 # buildsys2019 
 https://github.com/nilmtk/buildsys2019-paper-notebooks

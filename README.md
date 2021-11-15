@@ -6,31 +6,69 @@ Una lista de repositorios con algoritmos de desagregación de energía implement
 
 ### Nilmtk
   
- buildsys2019 https://github.com/nilmtk/buildsys2019-paper-notebooks
+ ## buildsys2019 https://github.com/nilmtk/buildsys2019-paper-notebooks
 
 En este repositorio puede encontrar los cuadernos que están asociados con los resultados en papel del documento Buildsys 2019 de NILMTK. Los portátiles demuestran el poder de la nueva API.
 
 Experimentos
-Los algoritmos utilizados en el artículo son los siguientes
-
-Algoritmo medio
-Algoritmo de Hart
-Optimización combinatoria
-FHMM exacto
-Codificación dispersa discriminativa
-Aditivo FHMM
-FHMM aditivo con SAC (restricciones agregadas de señal)
-Codificador automático de reducción de ruido
-RNN
-VentanaGRU
-Seq2Point
-Seq2Seq
-Cuadernos
+Los algoritmos utilizados en el artículo son los siguientes:
+> Algoritmo medio
+> Algoritmo de Hart
+> Optimización combinatoria
+> FHMM exacto
+> Codificación dispersa discriminativa
+> Aditivo FHMM
+> FHMM aditivo con SAC (restricciones agregadas de señal)
+> Codificador automático de reducción de ruido
+> RNN
+> VentanaGRU
+> Seq2Point
+> Seq2Seq
+Cuadernos :
 Los algoritmos como AFHMM, AFHMM con SAC y Codificación Discriminativa Dispersa son intensivos en CPU. Todas las redes neuronales son intensivas en GPU, por lo que un solo experimento tuvo que ejecutarse en diferentes tipos de máquinas. Todos los algoritmos intensivos de la CPU se ejecutaron en un sistema de CPU muy potente y todos los demás algoritmos se ejecutaron en un sistema con una GPU. Entonces, para cada experimento tenemos dos portátiles diferentes: uno para los algoritmos de CPU y otro para todo lo demás.
 
- nilmtk-contrib
+ ## nilmtk-contrib
 https://github.com/nilmtk/nilmtk-contrib
+Este repositorio contiene todos los algoritmos de última generación para la tarea de desagregación de energía implementados utilizando la API de Experimentación Rápida de NILMTK. Puedes encontrar el artículo aquí . Todos los cuadernos a los que estaba acostumbrado se pueden encontrar aquí .
 
+Con NILMTK-contrib puede utilizar los siguientes algoritmos:
+
+Modelo de Markov oculto factorial aditivo
+Modelo de Markov oculto factorial aditivo con restricciones de señal agregada
+Codificación dispersa discriminativa
+RNN
+Codificador automático de reducción de ruido
+Seq2Point
+Seq2Seq
+VentanaGRU
+Los algoritmos de vanguardia anteriores se han agregado a este repositorio.
+
+Puede hacer lo siguiente utilizando la nueva API de experimentación rápida de NILMTK:
+
+Capacitación y pruebas en múltiples dispositivos
+Capacitación y pruebas en múltiples conjuntos de datos (aprendizaje de transferencia)
+Capacitación y pruebas en varios edificios
+Entrenamiento y pruebas con agregado artificial
+Entrenamiento y pruebas con diferentes frecuencias de muestreo
+Consulte este cuaderno para saber más sobre el uso de la API.
+
+Detalles de instalación
+Actualmente estamos probando un paquete conda. Puede instalarlo en su entorno actual con:
+
+conda install -c conda-forge -c nilmtk nilmtk-contrib
+o cree un entorno dedicado (recomendado) con:
+
+conda create -n nilm -c conda-forge -c nilmtk nilmtk-contrib
+Consulte este cuaderno para utilizar los algoritmos nilmtk-contrib, utilizando la nueva NILMTK-API.
+
+A menos que sea un usuario avanzado, prefiera usar el paquete Conda en lugar del repositorio de Git, ya que este último puede contener cambios de trabajo en progreso.
+
+Dependencias
+NILMTK> = 0,4
+scikit-learn> = 0.21 (ya requerido por NILMTK)
+Keras> = 2.2.4
+cvxpy> = 1.0.0
+Nota: para un cálculo más rápido de las redes neuronales, se sugiere que instale keras-gpu, ya que puede aprovechar las GPU. Los algoritmos AFHMM, AFHMM_SAC y DSC son intensivos en CPU, use un sistema con buena CPU para estos algoritmos.
 
 ## Klemenjak
  simple desagregacion

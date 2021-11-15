@@ -14,26 +14,26 @@ https://github.com/nilmtk/nilmtk-contrib
 
 
 ## Klemenjak
-# simple desagregacion
+ simple desagregacion
  https://github.com/klemenjak/SynD/blob/master/examples/simple_disaggregation.ipynb 
-# Papers
+ Papers
  https://github.com/klemenjak/nilm-papers-with-code
-#SynD
+SynD
 https://github.com/klemenjak/SynD 
 
 
 ## JackKelly
 
-# Prototipo Neurlanilm
+ Prototipo Neuralnilm
 
 https://github.com/JackKelly/neuralnilm_prototype
 
 https://github.com/JackKelly/neuralnilm
 
 ## GJW
-# Gjw data
+ Gjw data
 https://github.com/gjwo/nilm_gjw_data
-# Gjw metadata
+ Gjw metadata
 https://github.com/gjwo/nilm_metadata
 
 
@@ -42,20 +42,17 @@ https://github.com/gjwo/nilm_metadata
 
 ## OdysseasKr  
 
-#Desagregador Neuronal
+Desagregador Neuronal
 https://github.com/OdysseasKr/neural-disaggregator
 
 
 ### Codigo en Python 
 
-
-
-
-# Gissemari  Desagregacion vrnn
+## Gissemari  Desagregacion vrnn
 https://bitbucket.org/gissemari/disaggregation-vrnn/src/master/
 
 
-# NILM en línea 
+## NILM en línea 
 https://github.com/OdysseasKr/online-nilm
 Aquí puede encontrar el código para las dos arquitecturas de redes neuronales propuestas  :"Enfoque de ventana deslizante para la desagregación de energía en línea utilizando redes neuronales artificiales, O. Krystalakos, C. Nalmpantis y D. Vrakas, SETN, 2018" (Documento completo: 3200947.3201011)
 Todo el código está escrito con Keras y Tensorflow.
@@ -79,66 +76,66 @@ Obras relacionadas en NILM neuronal: https://arxiv.org/pdf/1507.06594.pdf y Secu
 
 ## Yilingjia 
 
-# TreeCNN
+ TreeCNN
 https://github.com/yilingjia/TreeCNN-for-Energy-Breakdown
 
 ## Maechler
 
-# Nnilm
+ Nnilm
 https://github.com/maechler/nnilm
 
 
 
 ## Compsust
 
-# ALIP_NILM
+ALIP_NILM
 https://github.com/compsust/ALIP_NILM
 
 
 
 
 ## Loneharoon
-# Desagregador de energia GSP 
+ Desagregador de energia GSP 
 https://github.com/loneharoon/GSP_energy_disaggregator
 
 ## Louisyuze
-# Machine LeaRNING
+ Machine LeaRNING
 https://github.com/louisyuzhe/MachineLearning_NILM
 
 ## Jonathanrpereira
-# Smart energy Monitor
+ Smart energy Monitor
 https://github.com/jonathanrjpereira/Smart-Energy-Monitor
 
 
 ## bhushan23 
-# LSTM-SplitterdData Microhondas
+ LSTM-SplitterdData Microhondas
 https://github.com/bhushan23/SmartOff/blob/master/LSTM-SplittedData-Microwave.ipynb
 
 ## gokulshriyan
-# Minion
+ Minion
 https://github.com/gokulshriyam/Minion
 
 
 ## ZhangRaymond
-# neural NILM
+ neural NILM
 https://github.com/ZhangRaymond/Neural-NILM
 
 
 ## Maechler
-# NNILM
+ NNILM
 https://github.com/maechler/nnilm
 
 ## Compsust
-# Kp-nilm
+ Kp-nilm
 https://github.com/compsust/KP-NILM/blob/master/KP-NILM.py
 
 ## Mieskolainen
-# algo-NILM
+ algo-NILM
 https://github.com/mieskolainen/algo-NILM
 
 
 ## Daniprec
-#Nilm  
+Nilm  
 https://github.com/daniprec/nilm
 
 

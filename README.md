@@ -84,11 +84,26 @@ https://github.com/JackKelly/neuralnilm_prototype
 https://github.com/JackKelly/neuralnilm
 
 ## GJW
- Gjw data
-https://github.com/gjwo/nilm_gjw_data
- Gjw metadata
-https://github.com/gjwo/nilm_metadata
+ Gjw data https://github.com/gjwo/nilm_gjw_data
+ Gjw metadata https://github.com/gjwo/nilm_metadata
+ NOTEBOOK 6 años atras https://github.com/gjwo/nilm_gjw_data/tree/master/notebooks
+ 
+- Building 1 power sequencing.ipynb  .Initial load of power sequence data for 2013-12-03
+- Building_1_power_sequencing.ipynb  experimatation with disaggregation
+- Refresh_metadata.ipynb . production run with updated energy data and metadata
+- Untitled.ipynb  experimatation with disaggregation
+- converter_experiments.ipynb . notebooks moved to separate folder, graphing two metrics FAQ answer a…
+- disaggregation-CO.ipynb . experimatation with disaggregation
+-disaggregation-hart-CO-active_only.ipynb experimatation with disaggregation
+-disaggregation-hart-active_and_reactive(holiday).ipynb .experimatation with disaggregation .
+-disaggregation-hart-active_and_reactive(normal).ipynb . experimatation with disaggregation
+-disaggregation-hart-active_only.ipynb experimatation with disaggregation
+-disaggregation.ipynb. initial attempt at disaggregation training with errors
+-gjw_converter_test.ipynb . experimatation with disaggregation
+-graphing_two_metrics.ipynb. experimatation with disaggregation
+-test_gjw.ipynb.notebooks moved to separate folder, graphing two metrics FAQ answer a…
 
+ 
 
 
 

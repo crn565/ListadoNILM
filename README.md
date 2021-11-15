@@ -6,8 +6,27 @@ Una lista de repositorios con algoritmos de desagregación de energía implement
 
 ### Nilmtk
   
- buildsys2019 
-https://github.com/nilmtk/buildsys2019-paper-notebooks
+ buildsys2019 https://github.com/nilmtk/buildsys2019-paper-notebooks
+
+En este repositorio puede encontrar los cuadernos que están asociados con los resultados en papel del documento Buildsys 2019 de NILMTK. Los portátiles demuestran el poder de la nueva API.
+
+Experimentos
+Los algoritmos utilizados en el artículo son los siguientes
+
+Algoritmo medio
+Algoritmo de Hart
+Optimización combinatoria
+FHMM exacto
+Codificación dispersa discriminativa
+Aditivo FHMM
+FHMM aditivo con SAC (restricciones agregadas de señal)
+Codificador automático de reducción de ruido
+RNN
+VentanaGRU
+Seq2Point
+Seq2Seq
+Cuadernos
+Los algoritmos como AFHMM, AFHMM con SAC y Codificación Discriminativa Dispersa son intensivos en CPU. Todas las redes neuronales son intensivas en GPU, por lo que un solo experimento tuvo que ejecutarse en diferentes tipos de máquinas. Todos los algoritmos intensivos de la CPU se ejecutaron en un sistema de CPU muy potente y todos los demás algoritmos se ejecutaron en un sistema con una GPU. Entonces, para cada experimento tenemos dos portátiles diferentes: uno para los algoritmos de CPU y otro para todo lo demás.
 
  nilmtk-contrib
 https://github.com/nilmtk/nilmtk-contrib
@@ -77,9 +96,52 @@ Enlazar carpeta data como carpeta compartida en Virtual Box. Mantener el nombre 
 Es necesaria la installación previa de nilmtk: https://github.com/nilmtk/nilmtk/blob/master/docs/manual/user_guide/install.md
 
 
-#AriasSilva
+# AriasSilva
 
 Nilmtk en 6 pasos  https://github.com/AriasSilva/nilmtk
+
+NILMTK: Kit de herramientas de monitoreo de carga no intrusivo
+El monitoreo de carga no intrusiva (NILM) es el proceso de estimar la energía consumida por los aparatos individuales con solo una lectura del medidor de potencia de toda la casa. En otras palabras, produce una factura de energía (estimada) detallada a partir de un solo medidor de energía para toda la casa.
+
+NILMTK es un conjunto de herramientas diseñado para ayudar a los investigadores a evaluar la precisión de los algoritmos NILM.
+
+⚠️ Es posible que los autores de NILMTK tarden un tiempo en responderle con respecto a consultas / problemas. Sin embargo, eres más que bienvenido a proponer cambios, ¡apoyo!
+
+⚠️ Los últimos pasos en el desarrollo de la próxima versión de NILMTK (0.4) se están realizando en la rama maestra de git. Si es un usuario nuevo, consulte la rama de la versión 0.3.x en https://github.com/nilmtk/nilmtk/tree/0.3.x .
+
+⚠ La última versión está disponible a través de https://github.com/nilmtk/nilmtk/releases/latest
+
+Documentación
+Documentación de NILMTK
+
+¿Por qué un kit de herramientas para NILM?
+Citamos nuestro documento NILMTK que explica la necesidad de un juego de herramientas NILM:
+
+La comparación empírica de los algoritmos de desagregación es prácticamente imposible en la actualidad. Esto se debe a los diferentes conjuntos de datos utilizados, la falta de implementaciones de referencia de estos algoritmos y la variedad de métricas de precisión empleadas.
+
+Que proporciona NILMTK
+Para abordar este desafío, presentamos el Kit de herramientas de monitoreo de carga no intrusivo (NILMTK); un conjunto de herramientas de código abierto diseñado específicamente para permitir la comparación de algoritmos de desagregación de energía de una manera reproducible. Este trabajo es la primera investigación que compara múltiples enfoques de desagregación en múltiples conjuntos de datos disponibles públicamente. NILMTK incluye:
+
+analizadores para una variedad de conjuntos de datos existentes (8 y contando)
+una colección de algoritmos de preprocesamiento
+un conjunto de estadísticas para describir conjuntos de datos
+una serie de algoritmos de desagregación de puntos de referencia de referencia
+un conjunto común de métricas de precisión
+¡y mucho más!
+Publicaciones
+Consulte nuestra lista de publicaciones NILMTK . Si utiliza NILMTK en trabajos académicos, considere citar nuestros artículos.
+
+¡Tenga en cuenta que NILMTK ha evolucionado mucho desde que se publicaron estos artículos! Utilice los documentos en línea como guía para la API actual.
+
+Mantenerse al día con NILMTK
+NILMTK-Announce lista de correo : manténgase al día con NILMTK. Esta es una lista de correo de poco tráfico. Solo anunciaremos nuevas versiones, nuevos documentos, etc.
+NILMTK en Twitter .
+Historia
+Abril de 2014: versión 0.1 publicada
+Junio ​​de 2014: NILMTK presentado en ACM e-Energy
+Julio de 2014: versión 0.2 publicada
+Noviembre de 2014: NILMTK gana el premio a la mejor demostración en ACM BuildSys
+Para obtener más detalles, consulte nuestro registro de cambios .
 
 # Codigo en Python 
 

@@ -2,77 +2,122 @@
 Una lista de repositorios con algoritmos de desagregación de energía implementados
 
 
-# Cuadernos Juyter Notebooks
+# Cuadernos Jupyter Notebooks
 
 ### Nilmtk
   
- ## buildsys2019 https://github.com/nilmtk/buildsys2019-paper-notebooks
+## buildsys2019 https://github.com/nilmtk/buildsys2019-paper-notebooks
 
 En este repositorio puede encontrar los cuadernos que están asociados con los resultados en papel del documento Buildsys 2019 de NILMTK. Los portátiles demuestran el poder de la nueva API.
 
 Experimentos
+
 Los algoritmos utilizados en el artículo son los siguientes:
-> Algoritmo medio
-> Algoritmo de Hart
-> Optimización combinatoria
-> FHMM exacto
-> Codificación dispersa discriminativa
-> Aditivo FHMM
-> FHMM aditivo con SAC (restricciones agregadas de señal)
-> Codificador automático de reducción de ruido
-> RNN
-> VentanaGRU
-> Seq2Point
-> Seq2Seq
-Cuadernos :
+
+- Algoritmo medio
+
+- Algoritmo de Hart
+
+- Optimización combinatoria
+
+- FHMM exacto
+
+- Codificación dispersa discriminativa
+
+- Aditivo FHMM
+
+- FHMM aditivo con SAC (restricciones agregadas de señal)
+
+- Codificador automático de reducción de ruido
+
+- RNN
+
+- VentanaGRU
+
+- Seq2Point
+
+- Seq2Seq
+
+# Cuadernos :
+
 Los algoritmos como AFHMM, AFHMM con SAC y Codificación Discriminativa Dispersa son intensivos en CPU. Todas las redes neuronales son intensivas en GPU, por lo que un solo experimento tuvo que ejecutarse en diferentes tipos de máquinas. Todos los algoritmos intensivos de la CPU se ejecutaron en un sistema de CPU muy potente y todos los demás algoritmos se ejecutaron en un sistema con una GPU. Entonces, para cada experimento tenemos dos portátiles diferentes: uno para los algoritmos de CPU y otro para todo lo demás.
+Estos son los notebooks que contiene en el reposistorio de Github:
+- Across Homes FHMM's and DSC.ipynb
+- Across Homes Neurals, CO, Hart, FHMM.ipynb
+- Cross Dataset FHMM's and DSC.ipynb
+- Cross Dataset Neurals, CO, Hart, FHMM.ipynb
+- Same homes Artificial Aggregate FHMM's and DSC.ipynb
+- Same homes Artificial Aggregate Neurals, CO, Hart, FHMM.ipynb
+- Same homes Real Aggregate Neurals, CO, Hart, FHMM.ipynb
+- Same homes Real Aggregate FHMM's and DSC.ipynb
 
  ## nilmtk-contrib https://github.com/nilmtk/nilmtk-contrib
 Este repositorio contiene todos los algoritmos de última generación para la tarea de desagregación de energía implementados utilizando la API de Experimentación Rápida de NILMTK. Puedes encontrar el artículo aquí . Todos los cuadernos a los que estaba acostumbrado se pueden encontrar aquí .
 
 Con NILMTK-contrib puede utilizar los siguientes algoritmos:
-> Modelo de Markov oculto factorial aditivo
-> Modelo de Markov oculto factorial aditivo con restricciones de señal agregada
-> Codificación dispersa discriminativa
-> RNN
-> Codificador automático de reducción de ruido
-> Seq2Point
-> Seq2Seq
->VentanaGRU
+
+- Modelo de Markov oculto factorial aditivo
+
+- Modelo de Markov oculto factorial aditivo con restricciones de señal agregada
+
+- Codificación dispersa discriminativa
+
+- RNN
+
+- Codificador automático de reducción de ruido
+
+- Seq2Point
+
+- Seq2Seq
+
+- VentanaGRU
+
 Los algoritmos de vanguardia anteriores se han agregado a este repositorio.
 
 Puede hacer lo siguiente utilizando la nueva API de experimentación rápida de NILMTK:
 
-> Capacitación y pruebas en múltiples dispositivos
-> Capacitación y pruebas en múltiples conjuntos de datos (aprendizaje de transferencia)
-> Capacitación y pruebas en varios edificios
->  Entrenamiento y pruebas con agregado artificial
-> Entrenamiento y pruebas con diferentes frecuencias de muestreo
-Consulte este cuaderno para saber más sobre el uso de la API.
+- Capacitación y pruebas en múltiples dispositivos
 
-Detalles de instalación
+- Capacitación y pruebas en múltiples conjuntos de datos (aprendizaje de transferencia)
+
+- Capacitación y pruebas en varios edificios
+
+-  Entrenamiento y pruebas con agregado artificial
+
+- Entrenamiento y pruebas con diferentes frecuencias de muestreo
+ 
+- Consulte este cuaderno para saber más sobre el uso de la API.
+
+# Detalles de instalación
+
 Actualmente estamos probando un paquete conda. Puede instalarlo en su entorno actual con:
- conda install -c conda-forge -c nilmtk nilmtk-contrib
+
+conda install -c conda-forge -c nilmtk nilmtk-contrib
+
 o cree un entorno dedicado (recomendado) con:
+
 conda create -n nilm -c conda-forge -c nilmtk nilmtk-contrib
+
 Consulte este cuaderno para utilizar los algoritmos nilmtk-contrib, utilizando la nueva NILMTK-API.
 
 A menos que sea un usuario avanzado, prefiera usar el paquete Conda en lugar del repositorio de Git, ya que este último puede contener cambios de trabajo en progreso.
 
-Dependencias
-NILMTK> = 0,4
-scikit-learn> = 0.21 (ya requerido por NILMTK)
-Keras> = 2.2.4
-cvxpy> = 1.0.0
+Dependencias;
+
+- NILMTK> = 0,4
+
+- scikit-learn> = 0.21 (ya requerido por NILMTK)
+
+- Keras> = 2.2.4
+
+- cvxpy> = 1.0.0
+
 Nota: para un cálculo más rápido de las redes neuronales, se sugiere que instale keras-gpu, ya que puede aprovechar las GPU. Los algoritmos AFHMM, AFHMM_SAC y DSC son intensivos en CPU, use un sistema con buena CPU para estos algoritmos.
 
 ## Klemenjak
- simple desagregacion
- https://github.com/klemenjak/SynD/blob/master/examples/simple_disaggregation.ipynb 
- Papers
- https://github.com/klemenjak/nilm-papers-with-code
-SynD
-https://github.com/klemenjak/SynD 
+ - simple desagregacion   https://github.com/klemenjak/SynD/blob/master/examples/simple_disaggregation.ipynb 
+ - Papers y codigo  https://github.com/klemenjak/nilm-papers-with-code
+ - SynD https://github.com/klemenjak/SynD 
 
 
 ## JackKelly
@@ -94,14 +139,14 @@ https://github.com/JackKelly/neuralnilm
 - Untitled.ipynb  experimatation with disaggregation
 - converter_experiments.ipynb . notebooks moved to separate folder, graphing two metrics FAQ answer a…
 - disaggregation-CO.ipynb . experimatation with disaggregation
--disaggregation-hart-CO-active_only.ipynb experimatation with disaggregation
--disaggregation-hart-active_and_reactive(holiday).ipynb .experimatation with disaggregation .
--disaggregation-hart-active_and_reactive(normal).ipynb . experimatation with disaggregation
--disaggregation-hart-active_only.ipynb experimatation with disaggregation
--disaggregation.ipynb. initial attempt at disaggregation training with errors
--gjw_converter_test.ipynb . experimatation with disaggregation
--graphing_two_metrics.ipynb. experimatation with disaggregation
--test_gjw.ipynb.notebooks moved to separate folder, graphing two metrics FAQ answer a…
+- disaggregation-hart-CO-active_only.ipynb experimatation with disaggregation
+- disaggregation-hart-active_and_reactive(holiday).ipynb .experimatation with disaggregation .
+- disaggregation-hart-active_and_reactive(normal).ipynb . experimatation with disaggregation
+- disaggregation-hart-active_only.ipynb experimatation with disaggregation
+- disaggregation.ipynb. initial attempt at disaggregation training with errors
+- gjw_converter_test.ipynb . experimatation with disaggregation
+- graphing_two_metrics.ipynb. experimatation with disaggregation
+- test_gjw.ipynb.notebooks moved to separate folder, graphing two metrics FAQ answer a…
 
  
 
@@ -160,7 +205,6 @@ NILMTK es un conjunto de herramientas diseñado para ayudar a los investigadores
 
 ⚠ La última versión está disponible a través de https://github.com/nilmtk/nilmtk/releases/latest
 
-Documentación
 Documentación de NILMTK
 
 ¿Por qué un kit de herramientas para NILM?
@@ -169,22 +213,19 @@ Citamos nuestro documento NILMTK que explica la necesidad de un juego de herrami
 La comparación empírica de los algoritmos de desagregación es prácticamente imposible en la actualidad. Esto se debe a los diferentes conjuntos de datos utilizados, la falta de implementaciones de referencia de estos algoritmos y la variedad de métricas de precisión empleadas.
 
 Que proporciona NILMTK
-Para abordar este desafío, presentamos el Kit de herramientas de monitoreo de carga no intrusivo (NILMTK); un conjunto de herramientas de código abierto diseñado específicamente para permitir la comparación de algoritmos de desagregación de energía de una manera reproducible. Este trabajo es la primera investigación que compara múltiples enfoques de desagregación en múltiples conjuntos de datos disponibles públicamente. NILMTK incluye:
+Para abordar este desafío, presentamos el Kit de herramientas de monitoreo de carga no intrusivo (NILMTK); un conjunto de herramientas de código abierto diseñado específicamente para permitir la comparación de algoritmos de desagregación de energía de una manera reproducible. Este trabajo es la primera investigación que compara múltiples enfoques de desagregación en múltiples conjuntos de datos disponibles públicamente.
 
-analizadores para una variedad de conjuntos de datos existentes (8 y contando)
-una colección de algoritmos de preprocesamiento
-un conjunto de estadísticas para describir conjuntos de datos
-una serie de algoritmos de desagregación de puntos de referencia de referencia
-un conjunto común de métricas de precisión
+NILMTK incluye:
+- analizadores para una variedad de conjuntos de datos existentes (8 y contando)
+- una colección de algoritmos de preprocesamiento
+- un conjunto de estadísticas para describir conjuntos de datos
+- una serie de algoritmos de desagregación de puntos de referencia de referencia
+- un conjunto común de métricas de precisión
 ¡y mucho más!
-Publicaciones
-Consulte nuestra lista de publicaciones NILMTK . Si utiliza NILMTK en trabajos académicos, considere citar nuestros artículos.
+
 
 ¡Tenga en cuenta que NILMTK ha evolucionado mucho desde que se publicaron estos artículos! Utilice los documentos en línea como guía para la API actual.
 
-Mantenerse al día con NILMTK
-NILMTK-Announce lista de correo : manténgase al día con NILMTK. Esta es una lista de correo de poco tráfico. Solo anunciaremos nuevas versiones, nuevos documentos, etc.
-NILMTK en Twitter .
 Historia
 Abril de 2014: versión 0.1 publicada
 Junio ​​de 2014: NILMTK presentado en ACM e-Energy
@@ -194,28 +235,35 @@ Para obtener más detalles, consulte nuestro registro de cambios .
 
 # Codigo en Python 
 
-## Gissemari  Desagregacion vrnn
+## Gissemari 
+## Desagregacion vrnn
 https://bitbucket.org/gissemari/disaggregation-vrnn/src/master/
 VRNN-DIS1 y VRNN-DIS-ALL
 
-######## ALGUNOS CONOCIMIENTOS PREVIOS SOBRE EL MODELO
+ALGUNOS CONOCIMIENTOS PREVIOS SOBRE EL MODELO
+
 Estos modelos se construyen en base al modelo VRNN implementado en theano por sus autores aquí: https://github.com/jych/nips2015_vrnn.
 Se ejecuta con python2.7 y el resto de las versiones de las bibliotecas se pueden verificar en el archivo .yml
 Crea y activa el entorno desde latentVar.yml
-####### ESTRUCTURA DE ESTE REPOSITORIO
+ ESTRUCTURA DE ESTE REPOSITORIO
 bibliotecas auxiliares: donde se guardan los repositorios mencionados anteriormente
 Desagregación- [conjunto de datos]: están organizados de manera similar, una carpeta para los metadatos, una carpeta donde se guardan los archivos originales y preprocesados ​​del conjunto de datos, el código y la salida.
 latentVar.yml: entorno conda con todos los módulos y bibliotecas instalados
-#### BIBLIOTECAS AUXILIARES
+
+BIBLIOTECAS AUXILIARES
+
 Este modelo utiliza algunos otros módulos que han sido modificados e incluidos en este repositorio:
 
 1) NEURALNILM: cargue el archivo .h5 con el módulo NIMLTK y luego procese el conjunto de datos UKDALE para obtener instancias con cierta activación de destino (dispositivo) o sin ella. Repositorio original en https://github.com/JackKelly/neuralnilm 2) NILMTK y NILM_METADATA: Carga los archivos .h5, se realizan pocos cambios basados ​​en los originales principalmente por problemas de versiones. Originales https://github.com/nilmtk/nilmtk y https://github.com/nilmtk/nilm_metadata 2) CLE: Usado para entrenamiento y monitoreo modificado principalmente para agregar variables a monitorear y los mecanismos de muestreo de programación. Repositorio original: https://github.com/jych/cle)
-2) ####### SUB REPOSITORIOS
+2)  SUB REPOSITORIOS
 Cada uno de los repositorios de conjuntos de datos se divide en 3 subcarpetas:
+ 1) Metadatos: estadísticas y cifras para respaldar algunos de los parámetros que seleccionamos, como la longitud de las instancias (secuencias), el valor mínimo a considerar que el dispositivo está encendido, el valor máximo a considerar es apagado, etc.
+ 2) Conjuntos de datos: carpeta donde deben colocarse los datos originales (.h5). También contiene una subcarpeta PICKLES para guardar algunos datos preprocesados, especialmente para experimentos repetidos. 
+ 3) Preprocesamiento: donde se almacena la lógica del preprocesamiento. Su función principal es muestrear las instancias en función de los parámetros del archivo de configuración, como la frecuencia de muestreo (período), la longitud de la secuencia, la superposición o no para el entrenamiento, etc. 
+ 4)  VRNN_theano_version: donde se almacenan los modelos y la salida de los modelos VRNN. . También contiene
 
-1) Metadatos: estadísticas y cifras para respaldar algunos de los parámetros que seleccionamos, como la longitud de las instancias (secuencias), el valor mínimo a considerar que el dispositivo está encendido, el valor máximo a considerar es apagado, etc. 2) Conjuntos de datos: carpeta donde deben colocarse los datos originales (.h5). También contiene una subcarpeta PICKLES para guardar algunos datos preprocesados, especialmente para experimentos repetidos. 3) Preprocesamiento: donde se almacena la lógica del preprocesamiento. Su función principal es muestrear las instancias en función de los parámetros del archivo de configuración, como la frecuencia de muestreo (período), la longitud de la secuencia, la superposición o no para el entrenamiento, etc. 4) VRNN_theano_version: donde se almacenan los modelos y la salida de los modelos VRNN. . También contiene
+PARAMETROS
 
-##### PARAMETROS
 Los parámetros se definen dentro de los archivos de código como edificios, ELECTRODOMÉSTICOS (en el archivo de preprocesamiento), ventanas (rango de fechas para cargar y / o rangos para separar para entrenamiento y prueba). Sin embargo, la mayoría de los parámetros son similares en todos los modelos vrnn y se leen desde un archivo de configuración:
 
 [PATHS] - pickleModel es el archivo con el modelo mejor guardado a partir del cual leer los parámetros aprendidos. Se usa principalmente en los archivos de prueba - data_path es la ruta de los archivos de datos: ... / PecanStreet-dataport / datasets - save_path es la carpeta donde se guardará la salida, generalmente ... / VRNN_theano_version / output
@@ -232,23 +280,28 @@ PARA INSTALACION
 Al instalar theano con conda, falta instalar python2x. Así que cópialo de algún lado
 
 ## NILM en línea 
+
 https://github.com/OdysseasKr/online-nilm
+
 Aquí puede encontrar el código para las dos arquitecturas de redes neuronales propuestas  :"Enfoque de ventana deslizante para la desagregación de energía en línea utilizando redes neuronales artificiales, O. Krystalakos, C. Nalmpantis y D. Vrakas, SETN, 2018" (Documento completo: 3200947.3201011)
 Todo el código está escrito con Keras y Tensorflow.
 Puede encontrar versiones compatibles con NILMTK de estas redes en https://github.com/OdysseasKr/neural-disaggregator .
 Requiere NILMTK para ejecutarse. Puede encontrarlo aquí: https://github.com/nilmtk/nilmtk .
+
 #Las redes
+
 En cada carpeta puede encontrar un archivo README con instrucciones sobre cómo ejecutar los experimentos. Para cada red encontrará 4 archivos Python:
-> experiment.py: Código para ejecutar el experimento. Cada experimento incluye entrenamiento y evaluación de la red.
-> gen.py: Descarga todos los recursos necesarios y genera un conjunto de trenes y un conjunto de pruebas.
-> model.py: La arquitectura de red.
-> metrics.py: las métricas utilizadas para evaluar la red.
+-  experiment.py: Código para ejecutar el experimento. Cada experimento incluye entrenamiento y evaluación de la red.
+- gen.py: Descarga todos los recursos necesarios y genera un conjunto de trenes y un conjunto de pruebas.
+- model.py: La arquitectura de red.
+- metrics.py: las métricas utilizadas para evaluar la red.
+
 Los experimentos están disponibles para los siguientes dispositivos del conjunto de datos UKDALE:
--Lavavajillas
--Nevera
--Pava
--Microonda
--Lavadora
+- Lavavajillas
+- Nevera
+- Pava
+- Microonda
+- Lavadora
 Obras relacionadas en NILM neuronal: https://arxiv.org/pdf/1507.06594.pdf y Secuencia original a punto: https://arxiv.org/pdf/1612.09106v3.pdf 
 
 

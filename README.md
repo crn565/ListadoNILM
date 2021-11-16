@@ -114,6 +114,13 @@ Dependencias;
 
 Nota: para un cálculo más rápido de las redes neuronales, se sugiere que instale keras-gpu, ya que puede aprovechar las GPU. Los algoritmos AFHMM, AFHMM_SAC y DSC son intensivos en CPU, use un sistema con buena CPU para estos algoritmos.
 
+# Notebooks:
+En el directorios nilmtk-contrib/sample_notebooks/
+ - NILMTK API Tutorial.ipynb (Create NILMTK API Tutorial.ipynb)
+ - Using the API with NILMTK-CONTRIB.ipynb  (Removed Mean, CO, FHMM and Hart)
+
+
+
 ## Klemenjak
  - simple desagregacion   https://github.com/klemenjak/SynD/blob/master/examples/simple_disaggregation.ipynb 
  - Papers y codigo  https://github.com/klemenjak/nilm-papers-with-code
